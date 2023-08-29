@@ -1,0 +1,74 @@
+.sign-up {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 64px 16px;
+}
+
+.inner-sign-up.vstack.gap-2 {
+    max-width: 400px;
+}
+
+h1.heading {
+    text-align: left;
+    font-family: plex-sans, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+
+button#facebook {
+    height: 48px;
+    background-color: #4c69ba;
+    font-weight: 700;
+}
+
+button#apple {
+    height: 48px;
+    background-color: #000000e6;
+    font-weight: 700;
+}
+
+button#google {
+    height: 48px;
+    font-weight: 700;
+}
+button#email {
+    height: 48px;
+    background-color: #00ccbc;
+    font-weight: 700;
+}
+
+h6 {
+    overflow: hidden;
+    text-align: center;
+}
+
+h6:before,
+h6:after {
+    background-color: #8c9b9b;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h6:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h6:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+p {
+    text-align: left;
+    color: #585c5c;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: plex-sans,sans-serif;
+}

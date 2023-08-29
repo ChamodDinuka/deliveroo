@@ -1,0 +1,27 @@
+.bucket {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 1px 4px #00000014;
+}
+
+.empty-text {
+    color: #abadad;
+    font-size: 19px;
+    line-height: 22px;
+    font-family: plex-sans,sans-serif;
+    font-weight: 400;
+}
+
+button.btn.btn-secondary {
+    background-color: #E2E5E5;
+    width: 90%;
+    border: none;
+    padding: 16px;
+    margin-top: 16px;
+    font-size: 19px;
+    color: #abadad;
+    font-family: plex-sans,sans-serif;
+}

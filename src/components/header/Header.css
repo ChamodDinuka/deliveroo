@@ -1,0 +1,70 @@
+.bg-body-tertiary {
+    padding: 16px 32px !important;
+}
+button.btn.btn-outline-success, .nav-link {
+    padding: 8px 16px !important;
+}
+.searchIcon{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.searchBox {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    appearance: none;
+    font-family: plex-sans;
+    -webkit-font-smoothing: subpixel-antialiased;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    caret-color: #00ccbc;
+    border: 1px solid #e8ebeb;
+    border-radius: 4px;
+    opacity: 1;
+    transition-property: box-shadow;
+    transition-duration: .15s;
+    transition-timing-function: ease-out;
+    height: 46px;
+    background: #0000000a;
+    padding: 12px 16px 12px 10px;
+}
+input#searchField {
+    border: none;
+    margin-left: 10px;
+}
+.d-flex {
+    width: 100%;
+}
+nav.bg-body-tertiary.mb-3.navbar.navbar-expand-sm.navbar-light {
+    background: white !important;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+.navbar-brand, .offcanvas-title.h5{
+    font-size: 19px;
+    color: #00ccbc;
+    font-weight: 700;
+}
+button#login {
+    background: #00ccbc;
+    padding: 12px 24px;
+    border: none;
+    width: 100%;
+    font-weight: 700;
+    font-family: plex-sans,sans-serif;
+}
+button#faq {
+    background: none;
+    padding: 12px 5px;
+    border: none;
+    color: #2E3333;
+    text-align: left;
+    width: 100%;
+    font-family: plex-sans,sans-serif;
+}
+.offcanvas-header {
+    color: #00ccbc;
+}

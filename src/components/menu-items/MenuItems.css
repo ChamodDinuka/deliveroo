@@ -1,0 +1,87 @@
+.menu-items {
+    padding-top: 16px !important;
+    display: flex;
+}
+
+button.nav-button:focus, button#dropdown-basic:focus {
+    background: #00ccbc;
+    border: none;
+    padding: 2px 16px;
+    color: white;
+    border-radius: 25px;
+    font-family: plex-sans;
+}
+
+button.nav-button:active {
+    background: white;
+    padding: 2px 16px;
+    color: #00ccbc;
+    border-radius: 25px;
+    font-family: plex-sans;
+    transition: all 2s
+}
+
+button.nav-button, button#dropdown-basic {
+    background: white;
+    border: none;
+    padding: 2px 16px;
+    color: #00ccbc;
+    border-radius: 25px;
+    font-family: plex-sans;
+}
+
+.more-dropdown {
+    margin-left: auto;
+}
+
+.item-card {
+    padding: 16px;
+    box-shadow: 0 1px 4px #00000014;
+}
+
+.item-text {
+    text-align: left;
+    font-family: plex-sans,sans-serif;
+    color: #585c5c;
+    font-size: 14px;
+}
+
+div#item-details {
+    text-align: left;
+    font-family: plex-sans,sans-serif;
+    color: #585c5c;
+}
+
+.item-list {
+    margin-top: 32px;
+}
+
+@media only screen and (max-width: 539px) {
+    div#menu-stack{
+        overflow-x: auto;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .menu-items, .item-list {
+        padding: 0 24px;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .menu-items, .item-list {
+        padding: 0 24px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .menu-items, .item-list {
+        padding: 0 32px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .menu-items, .item-list {
+        padding: 0 64px;
+    }
+}
