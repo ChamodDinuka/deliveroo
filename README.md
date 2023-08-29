@@ -3,8 +3,8 @@ This is the front-end project of the **deliceroo**
 
 How to run this project :
 
-  After cloning first run 'npm install' command
-  Then run 'npm start' command
+  1)After cloning first run 'npm install' command
+  2)Then run 'npm start' command
   
 What have been completed :
 
